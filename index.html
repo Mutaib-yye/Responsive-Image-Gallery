@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Responsive Image Gallery</h1>
+        <div class="wallpaper-options">
+            <span class="wallpaper-icon">&#128247;</span>
+            <div class="wallpaper-menu">
+                <span class="wallpaper-option" data-wallpaper="default">Default</span>
+                <span class="wallpaper-option" data-wallpaper="1">Wallpaper 1</span>
+                <span class="wallpaper-option" data-wallpaper="2">Wallpaper 2</span>
+                <span class="wallpaper-option" data-wallpaper="3">Wallpaper 3</span>
+                <span class="wallpaper-option" data-wallpaper="4">Wallpaper 4</span>
+                <span class="wallpaper-option" data-wallpaper="5">Wallpaper 5</span>
+            </div>
+        </div>
+    </header>
+    <div class="gallery-container">
+        <div class="thumbnails-container">
+            <button class="thumbnails-prev">&#10094;</button>
+            <div class="thumbnails">
+                <img src="images/image1.jpg" alt="Thumbnail 1" class="thumb">
+                <img src="images/image2.jpg" alt="Thumbnail 2" class="thumb">
+                <img src="images/image3.jpg" alt="Thumbnail 3" class="thumb">
+                <img src="images/image4.jpg" alt="Thumbnail 4" class="thumb">
+                <img src="images/image5.jpg" alt="Thumbnail 5" class="thumb">
+                <img src="images/image6.jpg" alt="Thumbnail 6" class="thumb">
+                <img src="images/image7.jpg" alt="Thumbnail 7" class="thumb">
+                <img src="images/image8.jpg" alt="Thumbnail 8" class="thumb">
+                <img src="images/image9.jpg" alt="Thumbnail 9" class="thumb">
+                <img src="images/image10.jpg" alt="Thumbnail 10" class="thumb">
+                <img src="images/image11.jpg" alt="Thumbnail 11" class="thumb">
+                <img src="images/image12.jpg" alt="Thumbnail 12" class="thumb">
+                <img src="images/image13.jpg" alt="Thumbnail 13" class="thumb">
+                <img src="images/image14.jpg" alt="Thumbnail 14" class="thumb">
+                <img src="images/image15.jpg" alt="Thumbnail 15" class="thumb">
+            </div>
+            <button class="thumbnails-next">&#10095;</button>
+            <div class="indicator"></div>
+        </div>
+        <div class="main-image-container">
+            <div class="main-image-box">
+                <div class="arrow-box-left">&#10094;</div>
+                <img id="mainImage" src="images/image1.jpg" alt="Main Image">
+                <div class="arrow-box-right">&#10095;</div>
+                <div class="caption">"Discover the world"</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Responsive Image Gallery. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
